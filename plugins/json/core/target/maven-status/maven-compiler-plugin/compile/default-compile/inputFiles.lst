@@ -1,0 +1,16 @@
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\json\core\src\main\java\org\pentaho\di\trans\steps\jsonoutput\JsonOutputMeta.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\json\core\src\main\java\org\pentaho\di\ui\trans\steps\jsonoutput\JsonOutputDialog.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\json\core\src\main\java\org\pentaho\di\trans\steps\jsonoutput\JsonOutput.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\json\core\src\main\java\org\pentaho\di\trans\steps\jsoninput\reader\RowOutputConverter.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\json\core\src\main\java\org\pentaho\di\trans\steps\jsoninput\exception\JsonInputException.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\json\core\src\main\java\org\pentaho\di\trans\steps\jsoninput\JsonInputData.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\json\core\src\main\java\org\pentaho\di\trans\steps\jsoninput\JsonInputMeta.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\json\core\src\main\java\org\pentaho\di\trans\steps\jsonoutput\JsonOutputField.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\json\core\src\main\java\org\pentaho\di\trans\steps\jsoninput\reader\IJsonReader.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\json\core\src\main\java\org\pentaho\di\trans\steps\jsoninput\JsonInput.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\json\core\src\main\java\org\pentaho\di\ui\trans\steps\jsoninput\JsonInputDialog.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\json\core\src\main\java\org\pentaho\di\trans\steps\jsonoutput\JsonOutputData.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\json\core\src\main\java\org\pentaho\di\trans\steps\jsoninput\reader\InputsReader.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\json\core\src\main\java\org\pentaho\di\trans\steps\jsoninput\reader\FastJsonReader.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\json\core\src\main\java\org\pentaho\di\trans\steps\jsonoutput\JsonOutputMetaInjection.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\json\core\src\main\java\org\pentaho\di\trans\steps\jsoninput\JsonInputField.java

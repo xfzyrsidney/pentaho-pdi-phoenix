@@ -1,0 +1,14 @@
+org\pentaho\pdi\engine\serializers\DataEventSerializer$1.class
+org\pentaho\pdi\engine\serializers\MetricsEventSerializer$1.class
+org\pentaho\pdi\engine\serializers\MetricsEventSerializer$2.class
+org\pentaho\pdi\engine\serializers\LogEventSerializer$2.class
+org\pentaho\pdi\engine\serializers\StatusEventSerializer$2.class
+org\pentaho\pdi\engine\serializers\DataEventSerializer.class
+org\pentaho\pdi\engine\serializers\StatusEventSerializer.class
+org\pentaho\pdi\engine\serializers\DataEventSerializer$2.class
+org\pentaho\pdi\engine\serializers\DeserializedRow.class
+org\pentaho\pdi\engine\serializers\LogEventSerializer.class
+org\pentaho\pdi\engine\serializers\LogEventSerializer$1.class
+org\pentaho\pdi\engine\serializers\BaseSerializer.class
+org\pentaho\pdi\engine\serializers\StatusEventSerializer$1.class
+org\pentaho\pdi\engine\serializers\MetricsEventSerializer.class

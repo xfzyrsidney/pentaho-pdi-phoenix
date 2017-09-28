@@ -1,0 +1,16 @@
+<features name="repositories-plugin-repo" xmlns="http://karaf.apache.org/xmlns/features/v1.2.1">
+
+  <feature name="repositories-plugin" version="8.0-SNAPSHOT">
+    <feature>kar</feature>
+    <feature>pentaho-requirejs-osgi-manager</feature>
+
+    <!-- START client side dependencies -->
+    <bundle>pentaho-webjars:mvn:org.webjars.bower/angular/1.5.6</bundle>
+    <bundle>pentaho-webjars:mvn:org.webjars.bower/angular-route/1.5.6</bundle>
+    <bundle>pentaho-webjars:mvn:org.webjars.bower/angular-sanitize/1.5.6</bundle>
+    <bundle>pentaho-webjars:mvn:org.webjars.bower/angular-translate/2.12.1</bundle>
+    <bundle>pentaho-webjars:mvn:org.webjars.bower/angular-animate/1.5.6</bundle>
+    <!-- END -->
+  </feature>
+
+</features>

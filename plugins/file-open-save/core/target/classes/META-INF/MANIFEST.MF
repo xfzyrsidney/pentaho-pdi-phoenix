@@ -1,0 +1,54 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1506500862850
+Build-Jdk: 1.8.0_66
+Built-By: zyr
+Bundle-Blueprint: OSGI-INF/blueprint/blueprint.xml
+Bundle-Description: Container pom for Pentaho Data Integration modules
+Bundle-DocURL: http://www.pentaho.com
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt, https:/
+ /www.gnu.org/licenses/old-licenses/lgpl-2.1.txt, https://www.gnu.org/li
+ censes/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: PDI File Open and Save Plugin Core
+Bundle-SymbolicName: file-open-save-core
+Bundle-Vendor: Pentaho Corporation
+Bundle-Version: 8.0.0.SNAPSHOT
+Compile-Timestamp: 2017-09-27 08.22.19
+Compile-User: zyr
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.pentaho.repo.controller;uses:="org.pentaho.di.core.e
+ xception,org.pentaho.di.repository,org.pentaho.repo.model";version="8.0
+ .0.SNAPSHOT",org.pentaho.repo.dialog;uses:="org.eclipse.swt.widgets,org
+ .pentaho.di.ui.core.dialog";version="8.0.0.SNAPSHOT",org.pentaho.repo.e
+ ndpoint;uses:="javax.ws.rs,javax.ws.rs.core,org.pentaho.repo.controller
+ ";version="8.0.0.SNAPSHOT",org.pentaho.repo.extension;uses:="org.pentah
+ o.di.core.exception,org.pentaho.di.core.extension,org.pentaho.di.core.l
+ ogging";version="8.0.0.SNAPSHOT",org.pentaho.repo.model;uses:="org.pent
+ aho.di.repository";version="8.0.0.SNAPSHOT",org.pentaho.repo.util;versi
+ on="8.0.0.SNAPSHOT"
+Export-Service: org.ops4j.pax.web.extender.whiteboard.ResourceMapping
+Implementation-ProductID: file-open-save-core
+Implementation-Title: PDI File Open and Save Plugin Core
+Implementation-Vendor: Pentaho Corporation
+Implementation-Vendor-Id: org.pentaho.di.plugins
+Implementation-Version: 8.0-SNAPSHOT
+Import-Package: com.fasterxml.jackson.jaxrs.json;version="[2.5,3)",javax
+ .ws.rs;version="[2.0,3)",javax.ws.rs.core;version="[2.0,3)",org.apache.
+ commons.collections;version="[3.2,4)",org.apache.commons.lang;version="
+ [2.6,3)",org.eclipse.swt,org.eclipse.swt.browser,org.eclipse.swt.graphi
+ cs,org.eclipse.swt.widgets,org.json.simple;version="[1.1,2)",org.json.s
+ imple.parser;version="[1.1,2)",org.ops4j.pax.web.extender.whiteboard,or
+ g.ops4j.pax.web.extender.whiteboard.runtime,org.osgi.service.blueprint;
+ version="[1.0.0,2.0.0)",org.pentaho.di.core,org.pentaho.di.core.excepti
+ on,org.pentaho.di.core.extension,org.pentaho.di.core.logging,org.pentah
+ o.di.core.util,org.pentaho.di.job,org.pentaho.di.repository,org.pentaho
+ .di.trans,org.pentaho.di.ui.core,org.pentaho.di.ui.core.dialog,org.pent
+ aho.di.ui.core.gui,org.pentaho.di.ui.spoon,org.pentaho.di.ui.spoon.dele
+ gates,org.pentaho.platform.settings,org.pentaho.di.osgi
+SCM_BRANCH: master
+Source-Java-Version: 1.8
+Specification-Title: PDI File Open and Save Plugin Core
+Specification-Vendor: Pentaho Corporation
+Specification-Version: 8.0-SNAPSHOT
+Target-Java-Version: 1.8
+Tool: Bnd-2.1.0.20130426-122213

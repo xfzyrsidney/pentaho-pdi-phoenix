@@ -1,0 +1,16 @@
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\repositories\core\src\main\java\org\pentaho\di\ui\repo\RepositorySpoonStartExtensionPoint.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\repositories\core\src\main\java\org\pentaho\di\ui\repo\model\LoginModel.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\repositories\core\src\main\java\org\pentaho\di\ui\repo\RepositorySessionTimeoutHandler.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\repositories\core\src\main\java\org\pentaho\di\ui\repo\RequestLoginToRepositoryExtensionPoint.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\repositories\core\src\main\java\org\pentaho\di\ui\repo\RepositoryDialog.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\repositories\core\src\main\java\org\pentaho\di\ui\repo\RepositoryServiceSessionTimeoutHandler.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\repositories\core\src\main\java\org\pentaho\di\ui\repo\endpoints\RepositoryEndpoint.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\repositories\core\src\main\java\org\pentaho\di\ui\repo\RepositoryConnectMenu.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\repositories\core\src\main\java\org\pentaho\di\ui\repo\model\RepositoryModel.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\repositories\core\src\main\java\org\pentaho\di\ui\repo\RepositoryHttpContext.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\repositories\core\src\main\java\org\pentaho\di\ui\repo\MetaStoreSessionTimeoutHandler.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\repositories\core\src\main\java\org\pentaho\di\ui\repo\RepositoryConnectController.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\repositories\core\src\main\java\org\pentaho\di\ui\repo\RepositorySpoonPlugin.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\repositories\core\src\main\java\org\pentaho\di\ui\repo\SessionTimeoutHandler.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\repositories\core\src\main\java\org\pentaho\di\ui\repo\model\ErrorModel.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\repositories\core\src\main\java\org\pentaho\di\ui\repo\RepositoryOpenRecentFileExtensionPoint.java

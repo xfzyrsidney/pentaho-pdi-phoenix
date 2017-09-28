@@ -1,0 +1,11 @@
+org\pentaho\di\ui\trans\steps\aggregaterows\AggregateRowsDialog.class
+org\pentaho\di\trans\steps\aggregaterows\AggregateRows.class
+org\pentaho\di\ui\trans\steps\aggregaterows\AggregateRowsDialog$3.class
+org\pentaho\di\ui\trans\steps\aggregaterows\AggregateRowsDialog$1.class
+org\pentaho\di\ui\trans\steps\aggregaterows\AggregateRowsDialog$6.class
+org\pentaho\di\trans\steps\aggregaterows\AggregateRowsMeta.class
+org\pentaho\di\ui\trans\steps\aggregaterows\AggregateRowsDialog$2.class
+org\pentaho\di\ui\trans\steps\aggregaterows\AggregateRowsDialog$4.class
+org\pentaho\di\ui\trans\steps\aggregaterows\AggregateRowsDialog$7.class
+org\pentaho\di\trans\steps\aggregaterows\AggregateRowsData.class
+org\pentaho\di\ui\trans\steps\aggregaterows\AggregateRowsDialog$5.class

@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1506500891672
+Build-Jdk: 1.8.0_66
+Built-By: zyr
+Bundle-Description: Container pom for Pentaho Data Integration modules
+Bundle-DocURL: http://www.pentaho.com
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt, https:/
+ /www.gnu.org/licenses/old-licenses/lgpl-2.1.txt, https://www.gnu.org/li
+ censes/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: PDI Engine Configuration Plugin API
+Bundle-SymbolicName: pdi-engine-configuration-api
+Bundle-Vendor: Pentaho Corporation
+Bundle-Version: 8.0.0.SNAPSHOT
+Compile-Timestamp: 2017-09-27 08.22.19
+Compile-User: zyr
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.pentaho.di.engine.configuration.api;uses:="org.eclip
+ se.swt.widgets,org.pentaho.di,org.pentaho.di.base,org.pentaho.di.core.e
+ xception,org.pentaho.di.core.variables";version="8.0.0"
+Implementation-ProductID: pdi-engine-configuration-api
+Implementation-Title: PDI Engine Configuration Plugin API
+Implementation-Vendor: Pentaho Corporation
+Implementation-Vendor-Id: org.pentaho.di.plugins
+Implementation-Version: 8.0-SNAPSHOT
+Import-Package: org.eclipse.swt.widgets,org.pentaho.di,org.pentaho.di.ba
+ se,org.pentaho.di.core.exception,org.pentaho.di.core.variables
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+SCM_BRANCH: master
+Source-Java-Version: 1.8
+Specification-Title: PDI Engine Configuration Plugin API
+Specification-Vendor: Pentaho Corporation
+Specification-Version: 8.0-SNAPSHOT
+Target-Java-Version: 1.8
+Tool: Bnd-2.3.0.201405100607

@@ -1,0 +1,20 @@
+<features name="file-open-save-plugin-repo" xmlns="http://karaf.apache.org/xmlns/features/v1.2.1">
+
+  <feature name="file-open-save-plugin" version="8.0-SNAPSHOT">
+
+    <feature version="3.0.7">cxf-jaxrs</feature>
+    <feature>pentaho-requirejs-osgi-manager</feature>
+    <feature>pentaho-deployers</feature>
+
+    <feature>pentaho-i18n</feature>
+    <bundle>mvn:pentaho/pentaho-i18n-webservice-bundle/8.0-SNAPSHOT</bundle>
+
+    <!-- START client side dependencies -->
+    <bundle>pentaho-webjars:mvn:org.webjars.bower/angular/1.5.8</bundle>
+    <bundle>pentaho-webjars:mvn:org.webjars.bower/angular-i18n/1.5.6</bundle>
+    <bundle>pentaho-webjars:mvn:org.webjars.bower/require-css/0.1.8</bundle>
+    <bundle>pentaho-webjars:mvn:org.webjars.bower/requirejs-text/2.0.10</bundle>
+    <!-- END -->
+  </feature>
+
+</features>

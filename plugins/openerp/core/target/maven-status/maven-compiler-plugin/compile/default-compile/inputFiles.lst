@@ -1,0 +1,16 @@
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\openerp\core\src\main\java\org\pentaho\di\trans\steps\openerp\objectdelete\OpenERPObjectDeleteMeta.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\openerp\core\src\main\java\org\pentaho\di\trans\steps\openerp\objectoutput\OpenERPObjectOutput.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\openerp\core\src\main\java\org\pentaho\di\ui\trans\steps\openerp\objectinput\OpenERPObjectInputDialog.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\openerp\core\src\main\java\org\pentaho\di\core\database\OpenERPDatabaseMeta.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\openerp\core\src\main\java\org\pentaho\di\trans\steps\openerp\objectoutput\OpenERPObjectOutputData.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\openerp\core\src\main\java\org\pentaho\di\trans\steps\openerp\objectinput\OpenERPObjectInputData.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\openerp\core\src\main\java\org\pentaho\di\trans\steps\openerp\objectinput\OpenERPObjectInputMeta.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\openerp\core\src\main\java\org\pentaho\di\trans\steps\openerp\objectinput\OpenERPObjectInput.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\openerp\core\src\main\java\org\pentaho\di\ui\trans\steps\openerp\objectoutput\OpenERPObjectOutputDialog.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\openerp\core\src\main\java\org\pentaho\di\ui\trans\steps\openerp\objectdelete\OpenERPObjectDeleteDialog.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\openerp\core\src\main\java\org\pentaho\di\openerp\core\FieldMapping.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\openerp\core\src\main\java\org\pentaho\di\openerp\core\OpenERPHelper.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\openerp\core\src\main\java\org\pentaho\di\trans\steps\openerp\objectdelete\OpenERPObjectDelete.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\openerp\core\src\main\java\org\pentaho\di\trans\steps\openerp\objectdelete\OpenERPObjectDeleteData.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\openerp\core\src\main\java\org\pentaho\di\trans\steps\openerp\objectoutput\OpenERPObjectOutputMeta.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\openerp\core\src\main\java\org\pentaho\di\openerp\core\ReadFilter.java

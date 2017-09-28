@@ -1,0 +1,10 @@
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\log4j\core\src\main\java\org\pentaho\di\core\logging\Log4jPipedAppender.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\log4j\core\src\main\java\org\pentaho\di\core\logging\LogWriter.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\log4j\core\src\main\java\org\pentaho\di\core\logging\KettleLogChannelAppender.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\log4j\core\src\main\java\org\pentaho\di\core\logging\CentralLogStore.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\log4j\core\src\main\java\org\pentaho\di\core\logging\log4j\Log4jLogging.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\log4j\core\src\main\java\org\pentaho\di\core\logging\Log4jKettleLayout.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\log4j\core\src\main\java\org\pentaho\di\core\logging\Log4JLayoutInterface.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\log4j\core\src\main\java\org\pentaho\di\core\logging\Log4jFileAppender.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\log4j\core\src\main\java\org\pentaho\di\core\logging\Log4jStringAppender.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\log4j\core\src\main\java\org\pentaho\di\core\logging\Log4jConsoleAppender.java

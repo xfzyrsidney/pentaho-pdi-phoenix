@@ -1,0 +1,64 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1506500874929
+Build-Jdk: 1.8.0_66
+Built-By: zyr
+Bundle-Blueprint: OSGI-INF/blueprint/beans.xml
+Bundle-Description: Container pom for Pentaho Data Integration modules
+Bundle-DocURL: http://www.pentaho.com
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt, https:/
+ /www.gnu.org/licenses/old-licenses/lgpl-2.1.txt, https://www.gnu.org/li
+ censes/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: PDI Repositories Plugin Core
+Bundle-SymbolicName: repositories-plugin-core
+Bundle-Vendor: Pentaho Corporation
+Bundle-Version: 8.0.0.SNAPSHOT
+Compile-Timestamp: 2017-09-27 08.22.19
+Compile-User: zyr
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.pentaho.di.ui.repo;uses:="javax.servlet.http,org.ecl
+ ipse.swt.widgets,org.osgi.framework,org.osgi.service.http,org.pentaho.d
+ i.core.database,org.pentaho.di.core.exception,org.pentaho.di.core.exten
+ sion,org.pentaho.di.core.logging,org.pentaho.di.core.plugins,org.pentah
+ o.di.pan,org.pentaho.di.repository,org.pentaho.di.ui.core,org.pentaho.d
+ i.ui.core.dialog,org.pentaho.di.ui.repo.model,org.pentaho.di.ui.spoon,o
+ rg.pentaho.metastore.api,org.pentaho.ui.xul";version="8.0.0.SNAPSHOT",o
+ rg.pentaho.di.ui.repo.endpoints;uses:="javax.ws.rs,javax.ws.rs.core,org
+ .pentaho.di.ui.repo,org.pentaho.di.ui.repo.model";version="8.0.0.SNAPSH
+ OT",org.pentaho.di.ui.repo.model;version="8.0.0.SNAPSHOT"
+Export-Service: org.osgi.service.http.HttpContext;contextId=repoContextI
+ d,org.ops4j.pax.web.extender.whiteboard.ResourceMapping,org.pentaho.di.
+ core.plugins.PluginInterface;PluginType=org.pentaho.di.ui.spoon.SpoonPl
+ uginType
+Implementation-ProductID: repositories-plugin-core
+Implementation-Title: PDI Repositories Plugin Core
+Implementation-Vendor: Pentaho Corporation
+Implementation-Vendor-Id: org.pentaho.di.plugins
+Implementation-Version: 8.0-SNAPSHOT
+Import-Package: org.json.simple;version="[1.1.0,1.1.1)",com.fasterxml.ja
+ ckson.jaxrs.json;version="[2.5,3)",javax.servlet.http,javax.ws.rs,javax
+ .ws.rs.core,org.apache.commons.io;version="[2.2,3)",org.apache.commons.
+ lang;version="[2.6,3)",org.eclipse.swt.browser,org.eclipse.swt.events,o
+ rg.eclipse.swt.graphics,org.eclipse.swt.widgets,org.ops4j.pax.web.exten
+ der.whiteboard,org.ops4j.pax.web.extender.whiteboard.runtime,org.ops4j.
+ pax.web.service.spi.util;version="[3.1,4)",org.osgi.framework;version="
+ [1.6,2)",org.osgi.service.blueprint;version="[1.0.0,2.0.0)",org.osgi.se
+ rvice.http;version="[1.2,2)",org.pentaho.di.core,org.pentaho.di.core.da
+ tabase,org.pentaho.di.core.exception,org.pentaho.di.core.extension,org.
+ pentaho.di.core.logging,org.pentaho.di.core.plugins,org.pentaho.di.core
+ .util,org.pentaho.di.i18n,org.pentaho.di.osgi,org.pentaho.di.pan,org.pe
+ ntaho.di.repository,org.pentaho.di.trans,org.pentaho.di.ui.core,org.pen
+ taho.di.ui.core.database.dialog,org.pentaho.di.ui.core.dialog,org.penta
+ ho.di.ui.core.gui,org.pentaho.di.ui.repository,org.pentaho.di.ui.spoon,
+ org.pentaho.di.ui.util,org.pentaho.metastore.api,org.pentaho.platform.s
+ ettings,org.pentaho.ui.xul,org.pentaho.ui.xul.containers,org.pentaho.ui
+ .xul.dom
+Import-Service: org.osgi.service.http.HttpService;multiple:=false
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+SCM_BRANCH: master
+Source-Java-Version: 1.8
+Specification-Title: PDI Repositories Plugin Core
+Specification-Vendor: Pentaho Corporation
+Specification-Version: 8.0-SNAPSHOT
+Target-Java-Version: 1.8
+Tool: Bnd-2.3.0.201405100607

@@ -1,0 +1,13 @@
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\hl7\core\src\main\java\org\pentaho\di\job\entries\hl7mllpin\HL7MLLPInput.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\hl7\core\src\main\java\org\pentaho\di\trans\steps\hl7input\common\HL7Value.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\hl7\core\src\main\java\org\pentaho\di\trans\steps\hl7input\HL7InputMeta.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\hl7\core\src\main\java\org\pentaho\di\ui\job\entries\hl7mllpack\HL7MLLPAcknowledgeDialog.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\hl7\core\src\main\java\org\pentaho\di\trans\steps\hl7input\common\MLLPSocketCache.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\hl7\core\src\main\java\org\pentaho\di\trans\steps\hl7input\common\MLLPSocketCacheEntry.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\hl7\core\src\main\java\org\pentaho\di\trans\steps\hl7input\HL7InputData.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\hl7\core\src\main\java\org\pentaho\di\trans\steps\hl7input\common\NamesUtil.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\hl7\core\src\main\java\org\pentaho\di\ui\job\entries\hl7mllpin\HL7MLLPInputDialog.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\hl7\core\src\main\java\org\pentaho\di\trans\steps\hl7input\common\HL7KettleParser.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\hl7\core\src\main\java\org\pentaho\di\trans\steps\hl7input\HL7Input.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\hl7\core\src\main\java\org\pentaho\di\job\entries\hl7mllpack\HL7MLLPAcknowledge.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\hl7\core\src\main\java\org\pentaho\di\ui\trans\steps\hl7input\HL7InputDialog.java

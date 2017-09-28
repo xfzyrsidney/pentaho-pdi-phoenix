@@ -1,0 +1,7 @@
+org\pentaho\di\engine\configuration\api\RunConfiguration.class
+org\pentaho\di\engine\configuration\api\RunConfigurationProvider.class
+org\pentaho\di\engine\configuration\api\RunConfigurationUI.class
+org\pentaho\di\engine\configuration\api\RunConfigurationDialog.class
+org\pentaho\di\engine\configuration\api\RunConfigurationFactory.class
+org\pentaho\di\engine\configuration\api\RunConfigurationExecutor.class
+org\pentaho\di\engine\configuration\api\RunConfigurationService.class

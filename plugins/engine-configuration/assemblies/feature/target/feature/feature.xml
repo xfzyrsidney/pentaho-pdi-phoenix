@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.2.1" name="pdi-engine-configuration">
+    <feature name="pdi-engine-configuration" version="1.0" description="PDI Engine Configuration Plugin Feature">
+        <details>Container pom for Pentaho Data Integration modules</details>
+        <bundle start-level="80">mvn:org.pentaho.di.plugins/pdi-engine-configuration-impl/8.0-SNAPSHOT</bundle>
+        <bundle start-level="80">mvn:org.pentaho.di.plugins/pdi-engine-configuration-api/8.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="pdi-engine-configuration-ui" version="1.0">
+        <feature>pdi-engine-configuration</feature>
+        <bundle>mvn:org.pentaho.di.plugins/pdi-engine-configuration-ui/8.0-SNAPSHOT</bundle>
+    </feature>
+</features>

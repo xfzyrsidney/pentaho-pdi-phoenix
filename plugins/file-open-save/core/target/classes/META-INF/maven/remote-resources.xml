@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<remoteResourcesBundle xsi:schemaLocation="http://maven.apache.org/remote-resources/1.1.0 http://maven.apache.org/xsd/remote-resources-1.1.0.xsd"
+    xmlns="http://maven.apache.org/remote-resources/1.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <remoteResources>
+    <remoteResource>app/css/fonts/opensans/opensans-light.eot</remoteResource>
+    <remoteResource>app/css/fonts/opensans/opensans-light.svg</remoteResource>
+    <remoteResource>app/css/fonts/opensans/opensans-light.ttf</remoteResource>
+    <remoteResource>app/css/fonts/opensans/opensans-light.woff</remoteResource>
+    <remoteResource>app/css/fonts/opensans/opensans-regular.eot</remoteResource>
+    <remoteResource>app/css/fonts/opensans/opensans-regular.svg</remoteResource>
+    <remoteResource>app/css/fonts/opensans/opensans-regular.ttf</remoteResource>
+    <remoteResource>app/css/fonts/opensans/opensans-regular.woff</remoteResource>
+    <remoteResource>app/css/fonts/opensans/style.css</remoteResource>
+    <remoteResource>app/css/index.css</remoteResource>
+    <remoteResource>app/img/add_folder.svg</remoteResource>
+    <remoteResource>app/img/breadcrumb_blue.svg</remoteResource>
+    <remoteResource>app/img/busy_thin.gif</remoteResource>
+    <remoteResource>app/img/chevron_down_tree.svg</remoteResource>
+    <remoteResource>app/img/chevron_right_tree.svg</remoteResource>
+    <remoteResource>app/img/clear_field.svg</remoteResource>
+    <remoteResource>app/img/delete_folder_file.svg</remoteResource>
+    <remoteResource>app/img/folder.svg</remoteResource>
+    <remoteResource>app/img/home.svg</remoteResource>
+    <remoteResource>app/img/job_large.svg</remoteResource>
+    <remoteResource>app/img/job_small.svg</remoteResource>
+    <remoteResource>app/img/public.svg</remoteResource>
+    <remoteResource>app/img/recents.svg</remoteResource>
+    <remoteResource>app/img/search_field.svg</remoteResource>
+    <remoteResource>app/img/sort_down.svg</remoteResource>
+    <remoteResource>app/img/sort_none.svg</remoteResource>
+    <remoteResource>app/img/sort_up.svg</remoteResource>
+    <remoteResource>app/img/trans_large.svg</remoteResource>
+    <remoteResource>app/img/trans_small.svg</remoteResource>
+    <remoteResource>i18n/file-open-save/messages_en.properties</remoteResource>
+  </remoteResources>
+  <sourceEncoding>UTF-8</sourceEncoding>
+</remoteResourcesBundle>

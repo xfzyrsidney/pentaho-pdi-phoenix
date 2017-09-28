@@ -1,0 +1,128 @@
+/*
+ * *****************************************************************************
+ *
+ *  Pentaho Data Integration
+ *
+ *  Copyright (C) 2002-2017 by Pentaho : http://www.pentaho.com
+ *
+ *  *******************************************************************************
+ *  Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+ *  this file except in compliance with the License. You may obtain a copy of the
+ *  License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ * *****************************************************************************
+ *
+ */
+
+package org.pentaho.di.engine.configuration.impl.pentaho;
+
+import org.pentaho.di.ExecutionConfiguration;
+import org.pentaho.di.base.AbstractMeta;
+import org.pentaho.di.cluster.SlaveServer;
+import org.pentaho.di.core.exception.KettleException;
+import org.pentaho.di.core.variables.VariableSpace;
+import org.pentaho.di.engine.configuration.api.RunConfiguration;
+import org.pentaho.di.engine.configuration.api.RunConfigurationExecutor;
+import org.pentaho.di.engine.configuration.impl.pentaho.scheduler.SchedulerRequest;
+import org.pentaho.di.engine.configuration.impl.pentaho.scheduler.SpoonUtil;
+import org.pentaho.di.i18n.BaseMessages;
+import org.pentaho.di.job.JobExecutionConfiguration;
+import org.pentaho.di.trans.TransExecutionConfiguration;
+
+/**
+ * Created by bmorrise on 3/16/17.
+ */
+public class DefaultRunConfigurationExecutor implements RunConfigurationExecutor {
+
+  private static Class<?> PKG = DefaultRunConfigurationExecutor.class;
+
+  @Override
+  public void execute( RunConfiguration runConfiguration, ExecutionConfiguration executionConfiguration,
+                       AbstractMeta meta,
+                       VariableSpace variableSpace ) throws KettleException {
+    DefaultRunConfiguration defaultRunConfiguration = (DefaultRunConfiguration) runConfiguration;
+    if ( executionConfiguration instanceof TransExecutionConfiguration ) {
+      configureTransExecution( (TransExecutionConfiguration) executionConfiguration, defaultRunConfiguration,
+        variableSpace, meta );
+    }
+
+    if ( executionConfiguration instanceof JobExecutionConfiguration ) {
+      configureJobExecution( (JobExecutionConfiguration) executionConfiguration, defaultRunConfiguration, variableSpace,
+        meta );
+    }
+
+    variableSpace.setVariable( "engine", null );
+    variableSpace.setVariable( "engine.remote", null );
+    variableSpace.setVariable( "engine.protocol", null );
+    variableSpace.setVariable( "engine.host", null );
+    variableSpace.setVariable( "engine.port", null );
+  }
+
+  private void configureTransExecution( TransExecutionConfiguration transExecutionConfiguration,
+                                        DefaultRunConfiguration defaultRunConfiguration, VariableSpace variableSpace,
+                                        AbstractMeta meta ) throws KettleException {
+    transExecutionConfiguration.setExecutingLocally( defaultRunConfiguration.isLocal() );
+    transExecutionConfiguration.setExecutingRemotely( defaultRunConfiguration.isRemote() );
+    transExecutionConfiguration.setExecutingClustered( defaultRunConfiguration.isClustered() );
+    if ( defaultRunConfiguration.isRemote() ) {
+      setSlaveServer( transExecutionConfiguration, meta, defaultRunConfiguration, variableSpace );
+    }
+    if ( defaultRunConfiguration.isClustered() ) {
+      transExecutionConfiguration.setPassingExport( defaultRunConfiguration.isSendResources() );
+      transExecutionConfiguration.setClusterShowingTransformation( defaultRunConfiguration.isShowTransformations() );
+      transExecutionConfiguration.setClusterPosting( defaultRunConfiguration.isClustered() );
+      transExecutionConfiguration.setClusterPreparing( defaultRunConfiguration.isClustered() );
+      transExecutionConfiguration.setClusterStarting( defaultRunConfiguration.isClustered() );
+      transExecutionConfiguration.setLogRemoteExecutionLocally( defaultRunConfiguration.isLogRemoteExecutionLocally() );
+    }
+    if ( defaultRunConfiguration.isPentaho() && SpoonUtil.isConnected() ) {
+      sendNow( meta );
+    }
+  }
+
+  private void configureJobExecution( JobExecutionConfiguration jobExecutionConfiguration,
+                                      DefaultRunConfiguration defaultRunConfiguration, VariableSpace variableSpace,
+                                      AbstractMeta meta ) throws KettleException {
+    jobExecutionConfiguration.setExecutingLocally( defaultRunConfiguration.isLocal() );
+    jobExecutionConfiguration.setExecutingRemotely( defaultRunConfiguration.isRemote() );
+    if ( defaultRunConfiguration.isRemote() ) {
+      setSlaveServer( jobExecutionConfiguration, meta, defaultRunConfiguration, variableSpace );
+    }
+    jobExecutionConfiguration.setPassingExport( defaultRunConfiguration.isSendResources() );
+
+    if ( defaultRunConfiguration.isPentaho() && SpoonUtil.isConnected() ) {
+      sendNow( meta );
+    }
+  }
+
+  private void setSlaveServer( ExecutionConfiguration executionConfiguration, AbstractMeta meta,
+                      DefaultRunConfiguration defaultRunConfiguration,
+                      VariableSpace variableSpace ) throws KettleException {
+    SlaveServer slaveServer = meta.findSlaveServer( defaultRunConfiguration.getServer() );
+    executionConfiguration.setRemoteServer( slaveServer );
+    if ( slaveServer == null ) {
+      String filename = "";
+      if ( variableSpace instanceof AbstractMeta ) {
+        filename = ( (AbstractMeta) variableSpace ).getFilename();
+      }
+      throw new KettleException( BaseMessages
+        .getString( PKG, "DefaultRunConfigurationExecutor.RemoteNotFound.Error", filename,
+          defaultRunConfiguration.getName(), "{0}", defaultRunConfiguration.getServer() ) );
+    }
+  }
+
+  private void sendNow( AbstractMeta meta ) {
+    SchedulerRequest.Builder builder = new SchedulerRequest.Builder();
+    builder.authentication( SpoonUtil.getUsername(), SpoonUtil.getPassword() );
+    SchedulerRequest schedulerRequest = builder.build();
+    schedulerRequest.submit( SpoonUtil.getFullPath( meta ) );
+  }
+}

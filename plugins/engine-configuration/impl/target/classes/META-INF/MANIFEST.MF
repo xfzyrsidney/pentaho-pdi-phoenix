@@ -1,0 +1,76 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1506500913754
+Build-Jdk: 1.8.0_66
+Built-By: zyr
+Bundle-Blueprint: OSGI-INF/blueprint/beans.xml
+Bundle-Description: Container pom for Pentaho Data Integration modules
+Bundle-DocURL: http://www.pentaho.com
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt, https:/
+ /www.gnu.org/licenses/old-licenses/lgpl-2.1.txt, https://www.gnu.org/li
+ censes/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: PDI Engine Configuration Plugin Implementation
+Bundle-SymbolicName: pdi-engine-configuration-impl
+Bundle-Vendor: Pentaho Corporation
+Bundle-Version: 8.0.0.SNAPSHOT
+Compile-Timestamp: 2017-09-27 08.22.19
+Compile-User: zyr
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.pentaho.di.engine.configuration.impl;uses:="org.pent
+ aho.di.core.attributes.metastore,org.pentaho.di.engine.configuration.ap
+ i,org.pentaho.metastore.api.exceptions,org.pentaho.metastore.persist,or
+ g.pentaho.osgi.metastore.locator.api";version="8.0.0",org.pentaho.di.en
+ gine.configuration.impl.extension;uses:="org.pentaho.di.core.exception,
+ org.pentaho.di.core.extension,org.pentaho.di.core.logging,org.pentaho.d
+ i.engine.configuration.impl";version="8.0.0",org.pentaho.di.engine.conf
+ iguration.impl.extension.messages;version="8.0.0",org.pentaho.di.engine
+ .configuration.impl.pentaho;uses:="org.pentaho.di,org.pentaho.di.base,o
+ rg.pentaho.di.core.exception,org.pentaho.di.core.variables,org.pentaho.
+ di.engine.configuration.api,org.pentaho.di.engine.configuration.impl,or
+ g.pentaho.metastore.api.exceptions,org.pentaho.metastore.persist,org.pe
+ ntaho.osgi.metastore.locator.api";version="8.0.0",org.pentaho.di.engine
+ .configuration.impl.pentaho.messages;version="8.0.0",org.pentaho.di.eng
+ ine.configuration.impl.pentaho.scheduler;uses:="org.pentaho.di.base,org
+ .pentaho.di.ui.spoon";version="8.0.0",org.pentaho.di.engine.configurati
+ on.impl.spark;uses:="org.osgi.service.cm,org.pentaho.di,org.pentaho.di.
+ base,org.pentaho.di.core.variables,org.pentaho.di.engine.configuration.
+ api,org.pentaho.di.engine.configuration.impl,org.pentaho.metastore.api.
+ exceptions,org.pentaho.metastore.persist,org.pentaho.osgi.metastore.loc
+ ator.api";version="8.0.0",org.pentaho.di.engine.configuration.impl.spar
+ k.messages;version="8.0.0"
+Export-Service: org.pentaho.di.engine.configuration.api.RunConfiguration
+ Provider,org.pentaho.di.engine.configuration.api.RunConfigurationServic
+ e
+Implementation-ProductID: pdi-engine-configuration-impl
+Implementation-Title: PDI Engine Configuration Plugin Implementation
+Implementation-Vendor: Pentaho Corporation
+Implementation-Vendor-Id: org.pentaho.di.plugins
+Implementation-Version: 8.0-SNAPSHOT
+Import-Package: org.apache.http,org.apache.http.client,org.apache.http.c
+ lient.methods,org.apache.http.entity,org.apache.http.impl.client,org.ec
+ lipse.swt.custom,org.eclipse.swt.events,org.eclipse.swt.layout,org.ecli
+ pse.swt.widgets,org.osgi.service.blueprint;version="[1.0.0,2.0.0)",org.
+ osgi.service.cm;version="[1.5,2)",org.pentaho.capabilities.api;version=
+ "[8.0,9)",org.pentaho.capabilities.impl;version="[8.0,9)",org.pentaho.d
+ i,org.pentaho.di.base,org.pentaho.di.cluster,org.pentaho.di.core,org.pe
+ ntaho.di.core.attributes.metastore,org.pentaho.di.core.exception,org.pe
+ ntaho.di.core.extension,org.pentaho.di.core.logging,org.pentaho.di.core
+ .util,org.pentaho.di.core.variables,org.pentaho.di.engine.configuration
+ .api;version="[8.0,9)",org.pentaho.di.i18n,org.pentaho.di.job,org.penta
+ ho.di.repository,org.pentaho.di.trans,org.pentaho.di.ui.core,org.pentah
+ o.di.ui.spoon,org.pentaho.metastore.api,org.pentaho.metastore.api.excep
+ tions,org.pentaho.metastore.persist,org.pentaho.osgi.metastore.locator.
+ api;version="[8.0,9)",org.pentaho.di.osgi
+Import-Service: org.pentaho.di.engine.configuration.api.RunConfiguration
+ Provider;multiple:=true;availability:=optional,org.osgi.service.cm.Conf
+ igurationAdmin;multiple:=false;availability:=optional,org.pentaho.osgi.
+ metastore.locator.api.MetastoreLocator;multiple:=false;availability:=op
+ tional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+SCM_BRANCH: master
+Source-Java-Version: 1.8
+Specification-Title: PDI Engine Configuration Plugin Implementation
+Specification-Vendor: Pentaho Corporation
+Specification-Version: 8.0-SNAPSHOT
+Target-Java-Version: 1.8
+Tool: Bnd-2.3.0.201405100607

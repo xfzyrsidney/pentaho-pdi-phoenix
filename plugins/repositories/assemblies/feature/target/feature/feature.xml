@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.2.1" name="repositories-plugin-repo">
+    <feature name="repositories-plugin" version="8.0-SNAPSHOT" description="PDI Repositories Plugin Feature">
+        <details>Container pom for Pentaho Data Integration modules</details>
+        <feature>kar</feature>
+        <feature>pentaho-requirejs-osgi-manager</feature>
+        <bundle>pentaho-webjars:mvn:org.webjars.bower/angular/1.5.6</bundle>
+        <bundle>pentaho-webjars:mvn:org.webjars.bower/angular-route/1.5.6</bundle>
+        <bundle>pentaho-webjars:mvn:org.webjars.bower/angular-sanitize/1.5.6</bundle>
+        <bundle>pentaho-webjars:mvn:org.webjars.bower/angular-translate/2.12.1</bundle>
+        <bundle>pentaho-webjars:mvn:org.webjars.bower/angular-animate/1.5.6</bundle>
+        <bundle>mvn:org.pentaho.di.plugins/repositories-plugin-core/8.0-SNAPSHOT</bundle>
+        <bundle>mvn:com.fasterxml.jackson.core/jackson-core/2.5.4</bundle>
+        <bundle>mvn:com.fasterxml.jackson.core/jackson-annotations/2.5.4</bundle>
+        <bundle>mvn:com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/2.5.4</bundle>
+        <bundle>mvn:com.fasterxml.jackson.core/jackson-databind/2.5.4</bundle>
+        <bundle>mvn:com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/2.5.4</bundle>
+    </feature>
+</features>

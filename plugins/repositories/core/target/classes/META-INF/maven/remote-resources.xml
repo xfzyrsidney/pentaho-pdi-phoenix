@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<remoteResourcesBundle xsi:schemaLocation="http://maven.apache.org/remote-resources/1.1.0 http://maven.apache.org/xsd/remote-resources-1.1.0.xsd"
+    xmlns="http://maven.apache.org/remote-resources/1.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <remoteResources>
+    <remoteResource>org/pentaho/di/ui/repo/messages/messages_en_US.properties</remoteResource>
+    <remoteResource>org/pentaho/di/ui/repo/plugin.properties</remoteResource>
+    <remoteResource>web/css/animations.css</remoteResource>
+    <remoteResource>web/css/opensans-bold.eot</remoteResource>
+    <remoteResource>web/css/opensans-bold.svg</remoteResource>
+    <remoteResource>web/css/opensans-bold.ttf</remoteResource>
+    <remoteResource>web/css/opensans-bold.woff</remoteResource>
+    <remoteResource>web/css/opensans-light.eot</remoteResource>
+    <remoteResource>web/css/opensans-light.svg</remoteResource>
+    <remoteResource>web/css/opensans-light.ttf</remoteResource>
+    <remoteResource>web/css/opensans-light.woff</remoteResource>
+    <remoteResource>web/css/opensans-regular.eot</remoteResource>
+    <remoteResource>web/css/opensans-regular.svg</remoteResource>
+    <remoteResource>web/css/opensans-regular.ttf</remoteResource>
+    <remoteResource>web/css/opensans-regular.woff</remoteResource>
+    <remoteResource>web/css/style.css</remoteResource>
+    <remoteResource>web/images/add_single.png</remoteResource>
+    <remoteResource>web/images/busy_thin.gif</remoteResource>
+    <remoteResource>web/images/caution.svg</remoteResource>
+    <remoteResource>web/images/close_notif.svg</remoteResource>
+    <remoteResource>web/images/fail.png</remoteResource>
+    <remoteResource>web/images/help.svg</remoteResource>
+    <remoteResource>web/images/loading-clock.svg</remoteResource>
+    <remoteResource>web/images/pentaho_logo.png</remoteResource>
+    <remoteResource>web/images/pentaho_repo.png</remoteResource>
+    <remoteResource>web/images/pentaho_repo.svg</remoteResource>
+    <remoteResource>web/images/success.png</remoteResource>
+    <remoteResource>web/js/angular-translate-static-loader.js</remoteResource>
+    <remoteResource>web/js/app.js</remoteResource>
+    <remoteResource>web/js/controllers.js</remoteResource>
+    <remoteResource>web/js/models.js</remoteResource>
+    <remoteResource>web/js/services.js</remoteResource>
+    <remoteResource>web/lang/messages_en.properties</remoteResource>
+    <remoteResource>web/main.js</remoteResource>
+  </remoteResources>
+  <sourceEncoding>UTF-8</sourceEncoding>
+</remoteResourcesBundle>

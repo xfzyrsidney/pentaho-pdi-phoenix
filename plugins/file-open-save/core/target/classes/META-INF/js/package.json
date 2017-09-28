@@ -1,0 +1,11 @@
+{
+  "name": "file-open-save-core",
+  "version": "8.0-SNAPSHOT",
+  "description": "Container pom for Pentaho Data Integration modules",
+  "main": "app.module.js",
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-i18n": "1.5.6",
+    "require-css": "0.1.8"
+  }
+}

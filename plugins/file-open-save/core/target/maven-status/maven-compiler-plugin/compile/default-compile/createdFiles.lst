@@ -1,0 +1,10 @@
+org\pentaho\repo\util\Util.class
+org\pentaho\repo\model\RepositoryObject.class
+org\pentaho\repo\controller\RepositoryBrowserController.class
+org\pentaho\repo\dialog\RepositoryOpenSaveDialog$2.class
+org\pentaho\repo\model\RepositoryFile.class
+org\pentaho\repo\endpoint\RepositoryBrowserEndpoint.class
+org\pentaho\repo\dialog\RepositoryOpenSaveDialog.class
+org\pentaho\repo\extension\RepositoryOpenSaveExtensionPoint.class
+org\pentaho\repo\model\RepositoryDirectory.class
+org\pentaho\repo\dialog\RepositoryOpenSaveDialog$1.class

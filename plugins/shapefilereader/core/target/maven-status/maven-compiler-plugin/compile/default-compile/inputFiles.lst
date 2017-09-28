@@ -1,0 +1,16 @@
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\shapefilereader\core\src\main\java\org\pentaho\gis\shapefiles\ShapeFile.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\shapefilereader\core\src\main\java\org\pentaho\gis\shapefiles\ShapeInterface.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\shapefilereader\core\src\main\java\org\pentaho\gis\shapefiles\ShapeRecordHeader.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\shapefilereader\core\src\main\java\org\pentaho\gis\shapefiles\GisException.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\shapefilereader\core\src\main\java\org\pentaho\di\shapefilereader\ShapeFileReader.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\shapefilereader\core\src\main\java\org\pentaho\gis\shapefiles\ShapePolyLineM.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\shapefilereader\core\src\main\java\org\pentaho\gis\shapefiles\Converter.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\shapefilereader\core\src\main\java\org\pentaho\gis\shapefiles\ShapeFileHeader.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\shapefilereader\core\src\main\java\org\pentaho\gis\shapefiles\ShapeNull.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\shapefilereader\core\src\main\java\org\pentaho\gis\shapefiles\ShapePoint.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\shapefilereader\core\src\main\java\org\pentaho\di\ui\shapefilereader\ShapeFileReaderDialog.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\shapefilereader\core\src\main\java\org\pentaho\gis\shapefiles\Shape.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\shapefilereader\core\src\main\java\org\pentaho\di\shapefilereader\ShapeFileReaderMeta.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\shapefilereader\core\src\main\java\org\pentaho\di\shapefilereader\ShapeFileReaderData.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\shapefilereader\core\src\main\java\org\pentaho\gis\shapefiles\ShapePolygon.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\shapefilereader\core\src\main\java\org\pentaho\gis\shapefiles\ShapePolyLine.java

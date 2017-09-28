@@ -1,0 +1,14 @@
+org\pentaho\di\core\logging\Log4jFileAppender.class
+org\pentaho\di\core\logging\log4j\Log4jLogging.class
+org\pentaho\di\core\logging\Log4jStringAppender.class
+org\pentaho\di\core\logging\Log4jPipedAppender.class
+org\pentaho\di\core\logging\LogWriter.class
+org\pentaho\di\core\logging\Log4jKettleLayout$1.class
+org\pentaho\di\core\logging\KettleLogChannelAppender.class
+org\pentaho\di\core\logging\Log4JLayoutInterface.class
+org\pentaho\di\core\logging\Log4jConsoleAppender.class
+org\pentaho\di\core\logging\Log4jKettleLayout.class
+org\pentaho\di\core\logging\log4j\Log4jLogging$1.class
+org\pentaho\di\core\logging\LogWriter$1.class
+org\pentaho\di\core\logging\CentralLogStore$1.class
+org\pentaho\di\core\logging\CentralLogStore.class

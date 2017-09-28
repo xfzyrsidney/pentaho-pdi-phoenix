@@ -1,0 +1,7 @@
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\google-analytics\core\src\main\java\org\pentaho\di\ui\trans\steps\googleanalytics\GaInputStepDialog.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\google-analytics\core\src\main\java\org\pentaho\di\trans\steps\googleanalytics\GaInputStep.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\google-analytics\core\src\main\java\org\pentaho\di\ui\trans\steps\googleanalytics\BareBonesBrowserLaunch.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\google-analytics\core\src\main\java\org\pentaho\di\trans\steps\googleanalytics\GoogleAnalyticsApiFacade.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\google-analytics\core\src\main\java\org\pentaho\di\trans\steps\googleanalytics\OutputTypeConverter.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\google-analytics\core\src\main\java\org\pentaho\di\trans\steps\googleanalytics\GaInputStepData.java
+D:\pentaho-kettle-master\pentaho-kettle-master\plugins\google-analytics\core\src\main\java\org\pentaho\di\trans\steps\googleanalytics\GaInputStepMeta.java

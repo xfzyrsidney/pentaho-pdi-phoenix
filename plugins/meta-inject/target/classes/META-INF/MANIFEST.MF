@@ -1,0 +1,73 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1506500889641
+Build-Jdk: 1.8.0_66
+Built-By: zyr
+Bundle-Description: Metadata Injection as an OSGi Plugin
+Bundle-DocURL: http://www.pentaho.com
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt, https:/
+ /www.gnu.org/licenses/old-licenses/lgpl-2.1.txt, https://www.gnu.org/li
+ censes/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: PDI Metadata Injection Plugin
+Bundle-SymbolicName: meta-inject-plugin
+Bundle-Vendor: Pentaho Corporation
+Bundle-Version: 8.0.0.SNAPSHOT
+Compile-Timestamp: 2017-09-27 08.22.19
+Compile-User: zyr
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.pentaho.di.trans.steps.metainject;uses:="org.pentaho
+ .di.trans.step,org.pentaho.di.trans,org.pentaho.di.core.exception,org.p
+ entaho.di.core.row,org.pentaho.di.core.variables,org.pentaho.di.core.pa
+ rameters,org.pentaho.di.core.util,org.pentaho.di.job,org.pentaho.di.cor
+ e.xml,org.pentaho.di.core.logging,org.pentaho.di.repository,org.pentaho
+ .metastore.api,org.pentaho.di.i18n,org.pentaho.di.core.injection.bean,o
+ rg.pentaho.di.core.vfs,org.pentaho.di.core,org.pentaho.di.core.injectio
+ n,org.w3c.dom,org.pentaho.di.core.gui,org.pentaho.di.resource,org.penta
+ ho.di.core.annotations,org.pentaho.di.core.database,org.pentaho.di.core
+ .row.value,org.pentaho.di.core.extension,org.pentaho.di.ui.spoon,org.pe
+ ntaho.metastore.stores.xml,org.pentaho.di.repository.filerep,org.apache
+ .commons.vfs2";version="8.0.0.SNAPSHOT",org.pentaho.di.ui.trans.steps.m
+ etainject;uses:="org.eclipse.swt.events,org.pentaho.di.trans.steps.meta
+ inject,org.pentaho.di.trans.step,org.pentaho.di.core.variables,org.pent
+ aho.di.core.row,org.eclipse.swt.graphics,org.pentaho.di.core.util,org.e
+ clipse.swt.widgets,org.pentaho.di.trans,org.pentaho.di.ui.core.dialog,o
+ rg.pentaho.di.i18n,org.pentaho.di.core,org.pentaho.di.repository,org.pe
+ ntaho.di.core.exception,org.pentaho.di.ui.core.widget,org.pentaho.di.co
+ re.logging,org.pentaho.di.ui.trans.step,org.eclipse.swt.custom,org.pent
+ aho.di.core.injection.bean,org.apache.commons.lang,org.eclipse.swt,org.
+ pentaho.di.ui.spoon,org.eclipse.swt.layout,org.pentaho.di.ui.core,org.p
+ entaho.vfs.ui,org.pentaho.di.core.row.value,org.pentaho.di.ui.util,org.
+ apache.commons.vfs2,org.pentaho.di.core.vfs";version="8.0.0.SNAPSHOT"
+Export-Service: org.pentaho.di.core.plugins.PluginInterface;PluginType="
+ org.pentaho.di.core.plugins.StepPluginType"
+Implementation-ProductID: meta-inject-plugin
+Implementation-Title: PDI Metadata Injection Plugin
+Implementation-Vendor: Pentaho Corporation
+Implementation-Vendor-Id: org.pentaho.di.plugins
+Implementation-Version: 8.0-SNAPSHOT
+Import-Package: org.apache.commons.lang;version="[2.6,3)",org.apache.com
+ mons.vfs2;version="[2.1,3)",org.eclipse.swt;resolution:=optional,org.ec
+ lipse.swt.custom;resolution:=optional,org.eclipse.swt.events;resolution
+ :=optional,org.eclipse.swt.graphics;resolution:=optional,org.eclipse.sw
+ t.layout;resolution:=optional,org.eclipse.swt.widgets;resolution:=optio
+ nal,org.osgi.service.blueprint;version="[1.0.0,2.0.0)",org.pentaho.di.c
+ ore,org.pentaho.di.core.annotations,org.pentaho.di.core.database,org.pe
+ ntaho.di.core.exception,org.pentaho.di.core.extension,org.pentaho.di.co
+ re.gui,org.pentaho.di.core.injection,org.pentaho.di.core.injection.bean
+ ,org.pentaho.di.core.logging,org.pentaho.di.core.parameters,org.pentaho
+ .di.core.plugins,org.pentaho.di.core.row,org.pentaho.di.core.row.value,
+ org.pentaho.di.core.util,org.pentaho.di.core.variables,org.pentaho.di.c
+ ore.vfs,org.pentaho.di.core.xml,org.pentaho.di.i18n,org.pentaho.di.job,
+ org.pentaho.di.osgi,org.pentaho.di.repository,org.pentaho.di.repository
+ .filerep,org.pentaho.di.resource,org.pentaho.di.trans,org.pentaho.di.tr
+ ans.step,org.pentaho.di.ui.core,org.pentaho.di.ui.core.dialog,org.penta
+ ho.di.ui.core.widget,org.pentaho.di.ui.spoon,org.pentaho.di.ui.trans.st
+ ep,org.pentaho.di.ui.util,org.pentaho.metastore.api,org.pentaho.metasto
+ re.stores.xml,org.pentaho.vfs.ui,org.w3c.dom
+SCM_BRANCH: master
+Source-Java-Version: 1.8
+Specification-Title: PDI Metadata Injection Plugin
+Specification-Vendor: Pentaho Corporation
+Specification-Version: 8.0-SNAPSHOT
+Target-Java-Version: 1.8
+Tool: Bnd-1.50.0

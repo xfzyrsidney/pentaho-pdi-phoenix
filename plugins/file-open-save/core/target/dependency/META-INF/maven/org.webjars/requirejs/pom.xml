@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.webjars</groupId>
+        <artifactId>requirejs-parent</artifactId>
+        <version>2.2.0</version>
+    </parent>
+
+    <packaging>jar</packaging>
+    <artifactId>requirejs</artifactId>
+    <name>RequireJS</name>
+    <description>WebJar for RequireJS</description>
+
+    <properties>
+        <downloadUrl>http://requirejs.org/docs/release/${upstreamVersion}</downloadUrl>
+        <destinationDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destinationDir>
+        <requirejs>
+            {
+            }
+        </requirejs>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>wagon-maven-plugin</artifactId>
+                <version>1.0-beta-4</version>
+                <executions>
+                    <execution>
+                        <id>download-min-js</id>
+                        <phase>process-resources</phase>
+                        <goals><goal>download-single</goal></goals>
+                        <configuration>
+                            <url>${downloadUrl}/minified</url>
+                            <fromFile>require.js</fromFile>
+                            <toFile>${destinationDir}/require.min.js</toFile>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>download-full-js</id>
+                        <phase>process-resources</phase>
+                        <goals><goal>download-single</goal></goals>
+                        <configuration>
+                            <url>${downloadUrl}/comments</url>
+                            <fromFile>require.js</fromFile>
+                            <toDir>${destinationDir}</toDir>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
